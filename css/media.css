@@ -1,0 +1,211 @@
+@media (max-width: 1024px ) {
+     .navigation {
+          display: none;
+     }
+     .burger {
+          display: block;
+          order: 1;
+     }
+     .logo {
+          order: 2;
+     }
+     .auto-div {
+          order: 3;
+     }
+     .conteiner-1 {
+          flex-direction: column-reverse;
+          max-width: 896px;
+          width: 90%;
+          height: 813.38px;
+          row-gap: 64px;
+          justify-content: center;
+          text-align: center;
+          padding-top: 64px;
+          padding-bottom: 64px;
+     }
+     .right-block {
+          width: 90%;
+     }
+     .left-block {
+          max-width: 896px;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          row-gap: 43px;
+          justify-content: center;
+          align-items: center;
+     }
+     .travel {
+          font-size: 56px;
+          text-align: center;
+          width: 70%;
+          margin: 0 auto;
+     }
+     .icon {
+          height: 224px;
+          flex-wrap: wrap;
+          justify-content: center;
+          column-gap: 27px;
+          row-gap: 32px;
+     }
+     .title-reit {
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+          width: 100%;
+          height: 256px;
+          row-gap: 64px;
+     }
+     .contein-arrow {
+          margin: 0 auto;
+     }
+     .div-about {
+          row-gap: 16px;
+     }
+     .about-cost {
+          flex-direction: column-reverse;
+          row-gap: 8px;
+     }
+     .title-clas {
+          height: 261px;
+     }
+     .conteiner-3 {
+          flex-direction: column;
+          height: 1469px;
+          padding-top: 64px;
+          padding-bottom: 64px;
+          row-gap: 64px;
+          margin-left: 0px;
+     }
+     .girl {
+          width: 871px;
+          height: 697px;
+     }
+     .blok {
+          width: 832px;
+          height: 580px;
+          row-gap: 64px;
+     }
+     .div-right {
+          text-align: center;
+          width:832px;
+          width: 90%;
+          row-gap: 32px;
+          background-color: blue;
+     }
+     .div-left {
+          width: 832px;
+          width: 90%;
+          background-color: blueviolet;
+          height: 334px;
+     }
+     .top-div {
+          max-width: 832px;
+     }
+     .radius {
+          max-width: 400px;
+          width: 100%;
+     }
+     .tatle-p {
+          font-size: 40px;
+          line-height: 48px;
+     }
+}
+/* 1) 442 დან იწყებს ბურგერი ოდნავ დაპატარავებას და მასე უნდაიყოს თუ არა არ ვიცი. */
+@media (max-width: 430px ) {
+     .logo {
+          order: 1;
+     }
+     .burger {
+          order: 2;
+     }
+     .auto-div {
+          display: none;
+     }
+     .conteiner-1 {
+          row-gap: 32px;
+          width: 93%;
+          padding-top: 32px;
+          padding-bottom: 32px;
+     }
+     .right-block {
+          width: 100%;
+     }
+     .left-block {
+          width: 100%;
+     }
+     .travel {
+          font-size: 40px;
+          max-width: 398px;
+          width: 100%;
+          
+     }
+     .p-div {
+          max-width: 398px;
+     }
+     .title-p {
+          font-size: 16px;
+     }
+     .clic {
+          flex-direction: column;
+          row-gap: 24px;
+          height: 161px;
+          width: 100%;
+     }
+     .started {
+          width: 100%;
+          height: 65px;
+     }
+     .demo {
+          width: 100%;
+          height: 65px;
+     }
+     .icon {
+          height: 136px;
+          row-gap: 26px;
+          column-gap: 26px;
+     }
+     .icon-div {
+          height: 20px;
+     }
+     .conteiner-2 {
+          padding-top: 32px;
+          padding-bottom: 32px;
+          row-gap: 32px;
+     }
+     .Destination {
+          font-size: 16px;
+     }
+     .tatle-p {
+          font-size: 32px;
+          height: 48px;
+          width: 100%;
+     }
+     .title-reit {
+          row-gap: 32px;
+     }
+     .contein-arrow {
+          width: 100%;
+          justify-content: space-between;
+     }
+     .arrow {
+          width: 64px;
+          height: 64px;
+     }
+     .mini-conteiner {
+          flex-direction: column;
+          width: 398px;
+          width: 100%;
+          height: 1789px;
+          row-gap: 32px;
+     }
+     .height {
+          height: 575px;
+          width: 100%;
+     }
+     .image-class {
+          height: 314px;
+          width: 278px;
+          width: 100%;
+     }
+}
