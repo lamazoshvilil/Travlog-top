@@ -59,6 +59,9 @@
      .contein-arrow {
           margin: 0 auto;
      }
+     .image-class {
+          height: 314px;
+     }
      .div-about {
           row-gap: 16px;
      }
@@ -72,43 +75,48 @@
      .conteiner-3 {
           flex-direction: column;
           height: 1469px;
-          padding-top: 64px;
           padding-bottom: 64px;
           row-gap: 64px;
           margin-left: 0px;
      }
      .girl {
           width: 871px;
+          width: 100%;
           height: 697px;
      }
      .blok {
-          width: 832px;
+          width: 100%;
           height: 580px;
           row-gap: 64px;
      }
      .div-right {
-          text-align: center;
           width:832px;
           width: 90%;
+          display: flex;
+          flex-direction: column;
           row-gap: 32px;
-          background-color: blue;
+          align-items: center;
+          text-align: center;
      }
      .div-left {
           width: 832px;
           width: 90%;
-          background-color: blueviolet;
           height: 334px;
      }
      .top-div {
-          max-width: 832px;
+          width: 832px;
+          width: 100%;
      }
      .radius {
-          max-width: 400px;
-          width: 100%;
+          width: 400px;
      }
      .tatle-p {
           font-size: 40px;
           line-height: 48px;
+     }
+     .main-blok {
+          justify-content: center;
+          text-align: center;
      }
 }
 /* 1) 442 დან იწყებს ბურგერი ოდნავ დაპატარავებას და მასე უნდაიყოს თუ არა არ ვიცი. */
@@ -145,6 +153,7 @@
      }
      .title-p {
           font-size: 16px;
+          line-height: 19.2px;
      }
      .clic {
           flex-direction: column;
@@ -178,8 +187,9 @@
      }
      .tatle-p {
           font-size: 32px;
-          height: 48px;
-          width: 100%;
+          line-height: 38.6px;
+          height: 76px;
+          width: 90%;
      }
      .title-reit {
           row-gap: 32px;
@@ -200,12 +210,62 @@
           row-gap: 32px;
      }
      .height {
-          height: 575px;
+          /* height: 575px; */
           width: 100%;
      }
      .image-class {
           height: 314px;
           width: 278px;
           width: 100%;
+     }
+     .conteiner-3 {
+          width: 398px;
+          width: 90%;
+          row-gap: 16px;
+     }
+     .girl {
+          width: 100%;
+     }
+     .blok {
+          width: 398px;
+          width: 100%;
+          height: 905px;
+          row-gap: 32px;
+     }
+     .rome {
+          font-size: 16px;
+          line-height: 25.6px;
+     }
+     .div-left {
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+          height: 652px;
+     }
+     .top-div {
+          flex-direction: column;
+          row-gap: 16px;
+     }
+     .radius {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 151px;
+          row-gap: 16px;
+     }
+     .conteiner-4 {
+          padding-top: 32px;
+          padding-bottom: 32px;
+          height: 1191px;
+     }
+     .contein-icon {
+          display: flex;
+          flex-direction: column;
+     }
+     .div-icon {
+          flex-direction: column;
+          height: 290px;
+          padding-top: 32px;
+          row-gap: 32px;
      }
 }
