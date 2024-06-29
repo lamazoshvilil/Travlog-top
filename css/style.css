@@ -264,7 +264,7 @@
 .images-2 {
      width: 100%;
      height: 100%;
-     object-fit: contain;
+     object-fit: cover;
 }
 .title-clas {
      background-color: #FFFFFF;
