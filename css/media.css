@@ -62,6 +62,9 @@
      .image-class {
           height: 314px;
      }
+     .mini-conteiner {
+          column-gap: 31px;
+     }
      .div-about {
           row-gap: 16px;
      }
