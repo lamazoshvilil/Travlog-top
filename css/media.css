@@ -121,6 +121,17 @@
           justify-content: center;
           text-align: center;
      }
+     .footer-conteiner {
+          flex-direction: column;
+          row-gap: 64px;
+     }
+     .footer {
+          row-gap: 32px;
+          width: 100%;
+     }
+     .footer-right {
+          width: 100%;
+     }
 }
 /* 1) 442 დან იწყებს ბურგერი ოდნავ დაპატარავებას და მასე უნდაიყოს თუ არა არ ვიცი. */
 @media (max-width: 430px ) {
@@ -270,5 +281,15 @@
           height: 290px;
           padding-top: 32px;
           row-gap: 32px;
+     }
+     .footer-conteiner {
+          row-gap: 64px;
+     }
+     .footer-right {
+          flex-direction: column;
+          row-gap: 64px;
+     }
+     .footer-tit {
+          display: none;
      }
 }

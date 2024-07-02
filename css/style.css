@@ -400,6 +400,7 @@
      row-gap: 64px;
      padding-top: 64px;
      padding-bottom: 64px;
+     margin-bottom: 99px;
 }
 .main-blok {
      display: flex;
@@ -442,4 +443,86 @@
 .fa-ticket {
      color: rgba(255, 255, 255, 1);
      font-size: 34px;
+}
+.footer-conteiner {
+     width: 1184px;
+     width: 90%;
+     margin: 0 auto;
+     padding: 64px 0px 64px 0px;
+     display: flex;
+     column-gap: 64px;
+}
+.footer-logo {
+     width: 142px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     column-gap: 16px;
+}
+.footer {
+     display: flex;
+     flex-direction: column;
+     row-gap: 64px;
+     width: 560px;
+}
+.footer-icon {
+     width: 160px;
+     height: 32px;
+     display: flex;
+     column-gap: 32px;
+}
+.color-icon {
+     width: 32px;
+     height: 32px;
+     border-radius: 100px;
+     background-color: rgba(93, 80, 198, 1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.fa-facebook-f {
+     color: rgba(255, 255, 255, 1);
+}
+.fa-twitter {
+     color: rgba(255, 255, 255, 1);
+}
+.fa-instagram {
+     color: rgba(255, 255, 255, 1);
+}
+.footer-right {
+     width: 560px;
+     display: flex;
+     column-gap: 32px;
+}
+.footer-main {
+     display: flex;
+     flex-direction: column;
+     row-gap: 32px;
+}
+.tit-div {
+     display: flex;
+     flex-direction: column;
+     row-gap: 8px;
+}
+.footer-title {
+     color: rgba(25, 24, 37, 1);
+     font-size: 23px;
+     line-height: 27.6px;
+     font-family: "Anybody", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;
+     font-variation-settings:
+       "wdth" 100;
+}
+.footer-tit {
+     font-size: 18px;
+     line-height: 28.8px;
+     color: rgba(25, 24, 37, 0.75);
+     font-family: "Anybody", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-variation-settings:
+       "wdth" 100;
 }
